@@ -1,0 +1,18 @@
+HOW TO ADD YOUR PICTURE:
+================================
+
+1. Copy your profile picture to this folder (images/)
+2. Rename it to: profile.jpg
+3. Make sure it's a .jpg, .jpeg, or .png file
+4. Recommended size: 300x300 pixels or larger
+5. Square images work best for the circular display
+
+If your image has a different name:
+- Open index.html
+- Find the two <img> tags (around lines 28 and 44)
+- Change "images/profile.jpg" to "images/YOUR_IMAGE_NAME.jpg"
+
+The picture will appear in:
+- The home section (top of page)
+- The about section (middle of page)
+
