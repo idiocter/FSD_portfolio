@@ -28,27 +28,6 @@ simple-portfolio/
 └── README.md           # This file
 ```
 
-## How to Use
-
-1. **Add Your Picture (IMPORTANT):**
-
-   - Place your profile picture in the `images/` folder
-   - Name it `profile.jpg`
-   - OR if your image has a different name/format, update the image paths in `index.html`:
-     - Line 28: `<img src="images/profile.jpg" ...>` (home section)
-     - Line 44: `<img src="images/profile.jpg" ...>` (about section)
-   - Recommended image size: 300x300 pixels or larger (square images work best)
-   - Supported formats: .jpg, .jpeg, .png
-
-2. **Customize Content:**
-
-   - The portfolio is already customized with my information
-   - You can update projects, contact info, or any other details in `index.html`
-
-3. **Open the Website:**
-   - Simply open `index.html` in your web browser
-   - Or use a local server if needed
-
 ## Features
 
 - ✅ Simple and clean design
