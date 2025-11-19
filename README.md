@@ -60,13 +60,6 @@ simple-portfolio/
 - **Email:** regmibipul2015@gmail.com
 - **Phone:** +977 9848601460
 
-## Notes
-
-- Make sure your profile picture is square or close to square for best results
-- Recommended image size: 300x300 pixels or larger
-- The code is beginner-friendly with clear structure
-- All animations are simple and lightweight
-- The website is fully responsive and works on all devices
 
 ## License
 
