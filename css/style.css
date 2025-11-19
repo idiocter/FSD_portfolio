@@ -1,11 +1,11 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,14 +13,14 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Container */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Navigation */
+
 .navbar {
     background-color: #333;
     color: white;
@@ -62,7 +62,7 @@ body {
     color: #4CAF50;
 }
 
-/* Home Section */
+
 .home {
     min-height: 100vh;
     display: flex;
@@ -95,7 +95,7 @@ body {
     margin: 0 auto;
 }
 
-/* Fallback if image doesn't load */
+
 .profile-image img:not([src]),
 .profile-image img[src=""],
 .profile-image img[src*="placeholder"] {
@@ -150,7 +150,7 @@ body {
     transform: scale(1.1);
 }
 
-/* Section Styles */
+
 section {
     padding: 80px 0;
 }
@@ -162,7 +162,7 @@ section {
     color: #333;
 }
 
-/* About Section */
+
 .about {
     background-color: white;
 }
@@ -194,7 +194,7 @@ section {
     transform: scale(1.1);
 }
 
-/* Fallback for about image */
+
 .about-image img:not([src]),
 .about-image img[src=""],
 .about-image img[src*="placeholder"] {
@@ -212,7 +212,7 @@ section {
     color: #666;
 }
 
-/* Skills Section */
+
 .skills {
     background-color: #f4f4f4;
 }
@@ -260,7 +260,7 @@ section {
     color: #666;
 }
 
-/* Projects Section */
+
 .projects {
     background-color: white;
 }
@@ -304,7 +304,7 @@ section {
     color: #666;
 }
 
-/* Contact Section */
+
 .contact {
     background-color: #333;
     color: white;
@@ -357,7 +357,7 @@ section {
     padding: 2rem 0;
 }
 
-/* Animations */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -406,7 +406,7 @@ section {
     }
 }
 
-/* Scroll Animations */
+
 .fade-in {
     opacity: 0;
     transform: translateY(30px);
@@ -418,7 +418,7 @@ section {
     transform: translateY(0);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .nav-menu {
         flex-direction: column;
