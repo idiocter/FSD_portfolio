@@ -5,6 +5,7 @@ A simple and clean portfolio website showcasing my skills and projects as a web 
 ## About Me
 
 Hi, I'm **Bipul Regmi**, a web developer with experience in:
+
 - **MERN Stack** (MongoDB, Express.js, React, Node.js)
 - **Data Science** - Data analysis and insights
 - **Java** - Object-oriented programming
@@ -30,8 +31,9 @@ simple-portfolio/
 ## How to Use
 
 1. **Add Your Picture (IMPORTANT):**
+
    - Place your profile picture in the `images/` folder
-   - Name it `profile.jpg` 
+   - Name it `profile.jpg`
    - OR if your image has a different name/format, update the image paths in `index.html`:
      - Line 28: `<img src="images/profile.jpg" ...>` (home section)
      - Line 44: `<img src="images/profile.jpg" ...>` (about section)
@@ -39,6 +41,7 @@ simple-portfolio/
    - Supported formats: .jpg, .jpeg, .png
 
 2. **Customize Content:**
+
    - The portfolio is already customized with my information
    - You can update projects, contact info, or any other details in `index.html`
 
