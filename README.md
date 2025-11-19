@@ -76,7 +76,7 @@ simple-portfolio/
 ## Contact Information
 
 - **Email:** regmibipul2015@gmail.com
-- **Phone:** +977 (555) 123-4567
+- **Phone:** +977 9848601460
 
 ## Notes
 
