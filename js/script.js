@@ -1,4 +1,3 @@
-// Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -12,7 +11,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Add fade-in animation when scrolling
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -26,7 +24,6 @@ const observer = new IntersectionObserver(function(entries) {
     });
 }, observerOptions);
 
-// Observe all sections and cards
 document.addEventListener('DOMContentLoaded', function() {
     const elements = document.querySelectorAll('.skill-card, .project-card, .about-content');
     elements.forEach(el => {
@@ -35,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Navbar background change on scroll
 window.addEventListener('scroll', function() {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
@@ -45,7 +41,6 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Simple typing effect for name (optional)
 function typeWriter(element, text, speed = 100) {
     let i = 0;
     element.innerHTML = '';
@@ -59,12 +54,9 @@ function typeWriter(element, text, speed = 100) {
     type();
 }
 
-// Add hover effect to profile image
 const profileImages = document.querySelectorAll('#profile-img, #about-img');
 profileImages.forEach(img => {
-    // Handle image loading errors
     img.addEventListener('error', function() {
-        // If image fails to load, show a placeholder
         this.style.display = 'none';
         const placeholder = document.createElement('div');
         placeholder.style.cssText = `
@@ -95,7 +87,6 @@ profileImages.forEach(img => {
     });
 });
 
-// Simple counter animation for skills (if you want to add numbers later)
 function animateValue(element, start, end, duration) {
     let startTimestamp = null;
     const step = (timestamp) => {
@@ -110,4 +101,3 @@ function animateValue(element, start, end, duration) {
 }
 
 console.log('Portfolio website loaded successfully!');
-
